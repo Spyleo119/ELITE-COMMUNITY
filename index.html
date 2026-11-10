@@ -4,23 +4,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ELITE COMMUNITY</title>
+<meta name="description" content="ELITE COMMUNITY – moderní komunita zaměřená na zábavu, hudbu, přátelství a společné zážitky. Přidej se k nám na Discordu!">
+<meta name="theme-color" content="#09090d">
+<title>ELITE COMMUNITY | Oficiální web</title>
 <style>
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:#09090d;color:#fff;font-family:Arial,sans-serif}
-header{padding:25px 8%;background:#111018;border-bottom:1px solid #b89542;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
-.logo{color:#d8bd78;font-size:22px;font-weight:bold}
-nav a{color:#d8bd78;text-decoration:none;margin:8px;display:inline-block}
-.hero{text-align:center;padding:110px 20px 100px;background:linear-gradient(135deg,#171020,#09090d 65%)}
-h1{font-size:clamp(38px,7vw,68px);color:#d8bd78;margin:0 0 20px}
-.hero p{color:#ccc;font-size:18px;line-height:1.7}
-.button{display:inline-block;margin-top:20px;padding:14px 28px;background:#b89542;color:#09090d;text-decoration:none;border-radius:8px;font-weight:bold}
-section{max-width:1000px;margin:60px auto;padding:20px}
-h2{color:#bda1ee}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#17151f;border:1px solid #44345c;border-radius:14px;padding:25px}
+header{position:sticky;top:0;z-index:10;background:#111018;border-bottom:1px solid #b89542;padding:20px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{font-size:22px;font-weight:bold;color:#d8bd78;letter-spacing:2px}
+nav{display:flex;flex-wrap:wrap;gap:17px}
+nav a{color:#ddd;text-decoration:none;font-size:14px;transition:.3s}
+nav a:hover{color:#d8bd78}
+.hero{text-align:center;padding:130px 20px 120px;background:radial-gradient(ellipse at top,#34204b 0%,#171020 35%,#09090d 75%)}
+.hero h1{font-size:clamp(40px,7vw,75px);margin:0;color:#d8bd78;letter-spacing:3px}
+.hero p{font-size:18px;color:#ccc;line-height:1.8;max-width:650px;margin:25px auto}
+.button{display:inline-block;background:linear-gradient(110deg,#d8bd78,#a47b35);color:#09090d;padding:16px 28px;border-radius:9px;text-decoration:none;font-weight:bold;transition:.3s}
+.button:hover{transform:translateY(-3px);box-shadow:0 8px 25px #b8954255}
+section{max-width:1100px;margin:65px auto;padding:20px}
+h2{color:#d8bd78}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#17151f;border:1px solid #49345e;border-radius:15px;padding:27px;transition:.3s}
+.card:hover{transform:translateY(-5px);border-color:#b89542}
+.card h2{color:#bda1ee}
 .card p{color:#c9c5d1;line-height:1.7}
+.join{text-align:center;background:#171020;border:1px solid #6c4b88;border-radius:18px;padding:45px 20px}
 footer{text-align:center;padding:35px;color:#888;border-top:1px solid #29232f}
+@media(max-width:600px){header{justify-content:center}nav{justify-content:center}.hero{padding:90px 18px}}
 </style>
 </head>
 <body>
@@ -28,25 +38,36 @@ footer{text-align:center;padding:35px;color:#888;border-top:1px solid #29232f}
 <div class="logo">ELITE COMMUNITY</div>
 <nav>
 <a href="index.html">Domů</a>
-<a href="o_nás.html">O nás</a>
+<a href="o_n%C3%A1s.html">O nás</a>
 <a href="features.html">Funkce</a>
 <a href="rules.html">Pravidla</a>
 <a href="contact.html">Kontakt</a>
 </nav>
 </header>
+
 <div class="hero">
 <h1>ELITE COMMUNITY</h1>
-<p>Více než jen komunita. Místo pro zábavu, přátelství a společné zážitky.</p>
-<a class="button" href="https://discord.com/">Připojit se na Discord</a>
+<p>Více než jen komunita. Místo pro zábavu, hudbu, přátelství a společné zážitky.</p>
+<a class="button" href="https://discord.gg/NXrYW7MDsF" target="_blank" rel="noopener">PŘIPOJIT SE NA DISCORD ↗</a>
 </div>
+
 <section>
 <h2>Objev naši komunitu</h2>
 <div class="cards">
-<div class="card"><h2>💬 Komunikace</h2><p>Poznávej nové lidi a bav se s komunitou.</p></div>
+<div class="card"><h2>💬 Komunikace</h2><p>Poznávej nové lidi, povídej si a buď součástí naší komunity.</p></div>
 <div class="card"><h2>🎵 Hudba</h2><p>Sdílej svou oblíbenou hudbu a objevuj nové skladby.</p></div>
-<div class="card"><h2>🎮 Zábava</h2><p>Užij si hry, soutěže a společné akce.</p></div>
+<div class="card"><h2>🎮 Zábava</h2><p>Užij si hry, soutěže a společné komunitní akce.</p></div>
+<div class="card"><h2>🛡️ Bezpečí</h2><p>Budujeme přátelské prostředí s jasnými pravidly.</p></div>
 </div>
 </section>
+
+<section class="join">
+<h2>Připraven stát se součástí ELITE COMMUNITY?</h2>
+<p>Přidej se k nám na Discordu a poznej naši komunitu.</p>
+<a class="button" href="https://discord.gg/NXrYW7MDsF" target="_blank" rel="noopener">VSTOUPIT DO KOMUNITY ↗</a>
+</section>
+
 <footer>© 2026 ELITE COMMUNITY | Všechna práva vyhrazena</footer>
 </body>
 </html>
+
